@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="img/capa projeto.png" />
+</p>
+
 # AWS S3 Medallion ETL Pipeline 🏅
 
 ![Python](https://img.shields.io/badge/python-3.11+-blue.svg)
