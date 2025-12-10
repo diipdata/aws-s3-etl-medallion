@@ -1,0 +1,27 @@
+[project]
+name = "aws-s3-etl-medallion"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "diipdata", email = "diegop.freitas@gmail.com"}
+]
+readme = "README.md"
+requires-python = "3.11.12"
+dependencies = [
+    "s3fs (>=2025.12.0,<2026.0.0)",
+    "boto3 (<1.42)",
+    "pandas (>=2.3.3,<3.0.0)",
+    "python-dotenv (>=1.2.1,<2.0.0)",
+    "pyarrow (>=22.0.0,<23.0.0)"
+]
+
+# ------------------------
+
+[tool.poetry]
+package-mode = false
+
+# ------------------------
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
